@@ -4,7 +4,7 @@ import java.util.List;
 
 public class TestPractice3 {
 	
-//	arr¿¡ ÀÖ´Â 2Â÷¿ø ¹è¿­¿¡¼­ ¾çÂÊ ´ë°¢¼±ÀÇ ÇÕÀ» °¢°¢ ±¸ÇÏ°í ÁÂÇâ ´ë°¢¼±ÀÇ ÇÕ¿¡¼­ ¿ìÇâ ´ë°¢¼±ÀÇ °ªÀ» »« Àı´ë°ªÀ» ±¸ÇÏ½Ã¿À
+//	arrì— ìˆëŠ” 2ì°¨ì› ë°°ì—´ì—ì„œ ì–‘ìª½ ëŒ€ê°ì„ ì˜ í•©ì„ ê°ê° êµ¬í•˜ê³  ì¢Œí–¥ ëŒ€ê°ì„ ì˜ í•©ì—ì„œ ìš°í–¥ ëŒ€ê°ì„ ì˜ ê°’ì„ ëº€ ì ˆëŒ€ê°’ì„ êµ¬í•˜ì‹œì˜¤
 
 	public static int diagonalDifference(List<List<Integer>> arr) {
 		int a = 0;
@@ -18,8 +18,8 @@ public class TestPractice3 {
 			b += arr.get(i).get(arr.size()-(i+1));
 		}
 		
-		int result = a-b;
+		int result = Math.abs(a-b);
 		
-		return Math.abs(result);
+		return result;
 	}
 }
