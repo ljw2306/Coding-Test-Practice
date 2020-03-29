@@ -5,7 +5,7 @@ import java.util.List;
 
 public class TestPractice1 {
 	
-//	List a¿Í List bÀÇ °ªÀ» ºñ±³ÇÏ¿© aÀÇ °ªÀÌ Å©¸é º°°³ÀÇ List cÀÇ 0¹ø ÀÎµ¦½º¿¡ +1, bÀÇ °ªÀÌ Å©¸é 1¹ø ÀÎµ¦½º¿¡ +1À» ÇÏ¿© Ãâ·ÂÇÏ½Ã¿À. 
+//	List aì™€ List bì˜ ê°’ì„ ë¹„êµí•˜ì—¬ aì˜ ê°’ì´ í¬ë©´ ë³„ê°œì˜ List cì˜ 0ë²ˆ ì¸ë±ìŠ¤ì— +1, bì˜ ê°’ì´ í¬ë©´ 1ë²ˆ ì¸ë±ìŠ¤ì— +1ì„ í•˜ì—¬ ë°˜í™˜í•˜ì‹œì˜¤. 
 	
 	static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
 		List<Integer> c = new ArrayList<Integer>();
